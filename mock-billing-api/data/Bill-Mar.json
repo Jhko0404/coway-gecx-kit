@@ -1,0 +1,2128 @@
+{
+    "amountDue": {
+        "value": 5370.0,
+        "unit": "KRW"
+    },
+    "id": "urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484",
+    "billDate": "2026-04-02T00:00+02:00",
+    "subscription": [
+        {
+            "name": "정수기 (아이콘2)",
+            "relatedParty": {
+                "id": "urn:coway:rental:product:serial:01021041048"
+            },
+            "outOfBundleAmount": [
+                {
+                    "value": 55445.4,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "MONTHLY_FEES"
+                        },
+                        {
+                            "name": "Description",
+                            "value": "Basispreis / Paketpreis (monatlich)"
+                        },
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "RENTAL_FEES"
+                        }
+                    ]
+                },
+                {
+                    "value": 0.0,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "OPTIONAL_SERVICE_FEES"
+                        },
+                        {
+                            "name": "Description",
+                            "value": "Sonstiges"
+                        },
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "OTHER_FEES"
+                        }
+                    ]
+                },
+                {
+                    "value": -62134.6,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "OTHER_CHARGES_AND_CREDITS"
+                        },
+                        {
+                            "name": "Description",
+                            "value": "Zu Ihren Gunsten"
+                        },
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "DISCOUNTS"
+                        }
+                    ]
+                },
+                {
+                    "value": 6689.2,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "EVENT_CHARGES"
+                        },
+                        {
+                            "name": "Description",
+                            "value": "Verbindungspreise und Services"
+                        },
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "SERVICE_FEES"
+                        }
+                    ]
+                },
+                {
+                    "value": 0.0,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "AFTER_TAXED_ADDITIONAL_CHARGES_AND_CREDITS"
+                        },
+                        {
+                            "name": "Description",
+                            "value": "Mobiles Bezahlen"
+                        },
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "MOBILE_PAYMENTS"
+                        }
+                    ]
+                },
+                {
+                    "value": 0.0,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "BALANCE_TRANSFERS"
+                        },
+                        {
+                            "name": "Description",
+                            "value": "Transfer von Guthaben"
+                        },
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "BALANCE_TRANSFERS"
+                        }
+                    ]
+                },
+                {
+                    "value": 0.0,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "REGISTRATION_FEES"
+                        },
+                        {
+                            "name": "Description",
+                            "value": "Anschlusspreis"
+                        },
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "REGISTRATION_FEES"
+                        }
+                    ]
+                },
+                {
+                    "value": 0.0,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "TOTAL_AMOUNT"
+                        }
+                    ]
+                },
+                {
+                    "value": 0.0,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "TOTAL_AMOUNT_WITH_TAX"
+                        }
+                    ]
+                },
+                {
+                    "value": 0.0,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "TOTAL_TAX_AMOUNT"
+                        }
+                    ]
+                }
+            ],
+            "productCharacteristic": [
+                {
+                    "name": "PRORATED_DATES",
+                    "value": 0,
+                    "valueType": "integer",
+                    "@type": "Characteristic"
+                },
+                {
+                    "name": "INDEX",
+                    "value": "Y",
+                    "valueType": "string",
+                    "@type": "Characteristic"
+                }
+            ],
+            "totalBeforeVAT": {
+                "value": 0.0,
+                "unit": "KRW"
+            },
+            "totalAfterVAT": {
+                "value": 0.0,
+                "unit": "KRW"
+            },
+            "totalVAT": {
+                "value": 0.0,
+                "unit": "KRW"
+            }
+        },
+        {
+            "name": "공기청정기 (노블)",
+            "relatedParty": {
+                "id": "urn:coway:rental:product:serial:01021033703"
+            },
+            "outOfBundleAmount": [
+                {
+                    "value": 55445.4,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "MONTHLY_FEES"
+                        },
+                        {
+                            "name": "Description",
+                            "value": "Basispreis / Paketpreis (monatlich)"
+                        },
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "RENTAL_FEES"
+                        }
+                    ]
+                },
+                {
+                    "value": 0.0,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "OPTIONAL_SERVICE_FEES"
+                        },
+                        {
+                            "name": "Description",
+                            "value": "Sonstiges"
+                        },
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "OTHER_FEES"
+                        }
+                    ]
+                },
+                {
+                    "value": -55445.4,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "OTHER_CHARGES_AND_CREDITS"
+                        },
+                        {
+                            "name": "Description",
+                            "value": "Zu Ihren Gunsten"
+                        },
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "DISCOUNTS"
+                        }
+                    ]
+                },
+                {
+                    "value": 0.0,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "EVENT_CHARGES"
+                        },
+                        {
+                            "name": "Description",
+                            "value": "Verbindungspreise und Services"
+                        },
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "SERVICE_FEES"
+                        }
+                    ]
+                },
+                {
+                    "value": 0.0,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "AFTER_TAXED_ADDITIONAL_CHARGES_AND_CREDITS"
+                        },
+                        {
+                            "name": "Description",
+                            "value": "Mobiles Bezahlen"
+                        },
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "MOBILE_PAYMENTS"
+                        }
+                    ]
+                },
+                {
+                    "value": 0.0,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "BALANCE_TRANSFERS"
+                        },
+                        {
+                            "name": "Description",
+                            "value": "Transfer von Guthaben"
+                        },
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "BALANCE_TRANSFERS"
+                        }
+                    ]
+                },
+                {
+                    "value": 0.0,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "REGISTRATION_FEES"
+                        },
+                        {
+                            "name": "Description",
+                            "value": "Anschlusspreis"
+                        },
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "REGISTRATION_FEES"
+                        }
+                    ]
+                },
+                {
+                    "value": 0.0,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "TOTAL_AMOUNT"
+                        }
+                    ]
+                },
+                {
+                    "value": 0.0,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "TOTAL_AMOUNT_WITH_TAX"
+                        }
+                    ]
+                },
+                {
+                    "value": 0.0,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "TOTAL_TAX_AMOUNT"
+                        }
+                    ]
+                }
+            ],
+            "productCharacteristic": [
+                {
+                    "name": "PRORATED_DATES",
+                    "value": 0,
+                    "valueType": "integer",
+                    "@type": "Characteristic"
+                },
+                {
+                    "name": "INDEX",
+                    "value": "Y",
+                    "valueType": "string",
+                    "@type": "Characteristic"
+                }
+            ],
+            "totalBeforeVAT": {
+                "value": 0.0,
+                "unit": "KRW"
+            },
+            "totalAfterVAT": {
+                "value": 0.0,
+                "unit": "KRW"
+            },
+            "totalVAT": {
+                "value": 0.0,
+                "unit": "KRW"
+            }
+        },
+        {
+            "name": "비데 (룰루)",
+            "relatedParty": {
+                "id": "urn:coway:rental:product:serial:01021040843"
+            },
+            "outOfBundleAmount": [
+                {
+                    "value": 56945.700000000004,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "MONTHLY_FEES"
+                        },
+                        {
+                            "name": "Description",
+                            "value": "Basispreis / Paketpreis (monatlich)"
+                        },
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "RENTAL_FEES"
+                        }
+                    ]
+                },
+                {
+                    "value": 0.0,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "OPTIONAL_SERVICE_FEES"
+                        },
+                        {
+                            "name": "Description",
+                            "value": "Sonstiges"
+                        },
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "OTHER_FEES"
+                        }
+                    ]
+                },
+                {
+                    "value": -55445.4,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "OTHER_CHARGES_AND_CREDITS"
+                        },
+                        {
+                            "name": "Description",
+                            "value": "Zu Ihren Gunsten"
+                        },
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "DISCOUNTS"
+                        }
+                    ]
+                },
+                {
+                    "value": 0.0,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "EVENT_CHARGES"
+                        },
+                        {
+                            "name": "Description",
+                            "value": "Verbindungspreise und Services"
+                        },
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "SERVICE_FEES"
+                        }
+                    ]
+                },
+                {
+                    "value": 0.0,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "AFTER_TAXED_ADDITIONAL_CHARGES_AND_CREDITS"
+                        },
+                        {
+                            "name": "Description",
+                            "value": "Mobiles Bezahlen"
+                        },
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "MOBILE_PAYMENTS"
+                        }
+                    ]
+                },
+                {
+                    "value": 0.0,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "BALANCE_TRANSFERS"
+                        },
+                        {
+                            "name": "Description",
+                            "value": "Transfer von Guthaben"
+                        },
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "BALANCE_TRANSFERS"
+                        }
+                    ]
+                },
+                {
+                    "value": 0.0,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "REGISTRATION_FEES"
+                        },
+                        {
+                            "name": "Description",
+                            "value": "Anschlusspreis"
+                        },
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "REGISTRATION_FEES"
+                        }
+                    ]
+                },
+                {
+                    "value": 1500.3,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "TOTAL_AMOUNT"
+                        }
+                    ]
+                },
+                {
+                    "value": 0.0,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "TOTAL_AMOUNT_WITH_TAX"
+                        }
+                    ]
+                },
+                {
+                    "value": 0.0,
+                    "unit": "KRW",
+                    "characteristic": [
+                        {
+                            "name": "Category",
+                            "value": "TOTAL_TAX_AMOUNT"
+                        }
+                    ]
+                }
+            ],
+            "productCharacteristic": [
+                {
+                    "name": "PRORATED_DATES",
+                    "value": 27,
+                    "valueType": "integer",
+                    "@type": "Characteristic"
+                },
+                {
+                    "name": "INDEX",
+                    "value": "Y",
+                    "valueType": "string",
+                    "@type": "Characteristic"
+                }
+            ],
+            "totalBeforeVAT": {
+                "value": 1500.3,
+                "unit": "KRW"
+            },
+            "totalAfterVAT": {
+                "value": 0.0,
+                "unit": "KRW"
+            },
+            "totalVAT": {
+                "value": 0.0,
+                "unit": "KRW"
+            }
+        }
+    ],
+    "billSummary": [
+        {
+            "@type": "BillSummary",
+            "bill": {
+                "@referredType": "CustomerBill",
+                "@type": "CustomerBillRef",
+                "id": "urn:coway:rental:product:invoice-number:121341447484"
+            },
+            "billSummaryItem": [
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "REGISTRATION_FEES",
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    }
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "RENTAL_FEES",
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 167836.5
+                    }
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "SERVICE_FEES",
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 6689.2
+                    }
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "OTHER_FEES",
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 3008.4
+                    }
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "DISCOUNTS",
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": -173025.4
+                    }
+                }
+            ],
+            "logicalResource": {
+                "@type": "LogicalResource",
+                "category": "ACCOUNT",
+                "id": "urn:coway:rental:product:ban:115720204",
+                "name": "ACCOUNT_SUMMARY"
+            },
+            "totalAmount": {
+                "unit": "KRW",
+                "value": 5370.0
+            },
+            "billingPeriod": {
+                "endDateTime": "2026-03-27T00:00:00+01:00",
+                "startDateTime": "2026-02-28T00:00:00+01:00"
+            },
+            "billDate": "2026-04-02T00:00:00+02:00",
+            "paymentDueDate": "2026-04-14T00:00:00+02:00",
+            "externalIdentifier": [
+                {
+                    "owner": "briteBill",
+                    "externalIdentifierType": "documentId",
+                    "id": "229428890-0121341447484"
+                },
+                {
+                    "owner": "dxl",
+                    "externalIdentifierType": "urn",
+                    "id": "urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484"
+                }
+            ],
+            "characteristic": [
+                {
+                    "name": "ACCOUNT_BALANCE",
+                    "value": 3.58,
+                    "valueType": "float",
+                    "@type": "Characteristic"
+                },
+                {
+                    "name": "PREVIOUS_ACCOUNT_BALANCE",
+                    "value": -1.79,
+                    "valueType": "float",
+                    "@type": "Characteristic"
+                },
+                {
+                    "name": "LAST_BUSINESS_NAME_1",
+                    "value": "Rohkamm",
+                    "valueType": "string",
+                    "@type": "Characteristic"
+                },
+                {
+                    "name": "LAST_BUSINESS_NAME_2",
+                    "value": "c/o Vodafone GmbH/Zentrale",
+                    "valueType": "string",
+                    "@type": "Characteristic"
+                },
+                {
+                    "name": "LAST_BUSINESS_NAME_3",
+                    "value": "T Abt. DI",
+                    "valueType": "string",
+                    "@type": "Characteristic"
+                },
+                {
+                    "name": "RECIPIENT_FIRST_NAME",
+                    "value": "Lars",
+                    "valueType": "string",
+                    "@type": "Characteristic"
+                },
+                {
+                    "name": "RECIPIENT_ADDRESS_COUNTRY",
+                    "value": "Deutschland",
+                    "valueType": "string",
+                    "@type": "Characteristic"
+                },
+                {
+                    "name": "PAYMENT_TEXT",
+                    "value": "Der zu zahlende Betrag ist fällig am 14.04.2025. Noch offene Beträge aus früheren Rechnungen bleiben sofort zahlbar. Bitte überweisen Sie den Betrag in Höhe von 3,58 EUR unter Angabe Ihrer Kunden- oder Rechnungs-nummer auf unser Konto bei der Deutsche Bank AG, BIC DEUTDEDDXXX, IBAN DE68300700100250800000.",
+                    "valueType": "string",
+                    "@type": "Characteristic"
+                },
+                {
+                    "name": "NOTIFY_CATEGORY",
+                    "value": "E",
+                    "valueType": "string",
+                    "@type": "Characteristic"
+                },
+                {
+                    "name": "PDF_FLAG",
+                    "value": "N",
+                    "valueType": "string",
+                    "@type": "Characteristic"
+                },
+                {
+                    "name": "TIME_ZONE",
+                    "value": "CET",
+                    "valueType": "string",
+                    "@type": "Characteristic"
+                },
+                {
+                    "name": "BAN_MEDIA_CATEGORY",
+                    "value": "BO",
+                    "valueType": "string",
+                    "@type": "Characteristic"
+                },
+                {
+                    "name": "CUSTOMER_CATEGORY",
+                    "value": "VF",
+                    "valueType": "string",
+                    "@type": "Characteristic"
+                }
+            ],
+            "paymentMethod": {
+                "id": "-1",
+                "name": "CA",
+                "@type": "PaymentMethodRef"
+            }
+        },
+        {
+            "@type": "BillSummary",
+            "bill": {
+                "@referredType": "CustomerBill",
+                "@type": "CustomerBillRef",
+                "id": "urn:coway:rental:product:invoice-number:121341447484"
+            },
+            "billSummaryItem": [
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "ACCOUNT_CHARGES_AND_CREDITS",
+                    "description": "Kontoausgleich",
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 3008.4
+                    }
+                }
+            ],
+            "logicalResource": {
+                "@type": "LogicalResource",
+                "category": "ACCOUNT",
+                "id": "urn:coway:rental:product:ban:115720204",
+                "name": "ACCOUNT_CHARGES_AND_CREDITS"
+            },
+            "netAmount": {
+                "unit": "KRW",
+                "value": 3008.4
+            },
+            "totalAmount": {
+                "unit": "KRW",
+                "value": 3580.0
+            },
+            "billingPeriod": {
+                "endDateTime": "2026-03-27T00:00:00+01:00",
+                "startDateTime": "2026-02-28T00:00:00+01:00"
+            },
+            "billDate": "2026-04-02T00:00:00+02:00",
+            "paymentDueDate": "2026-04-14T00:00:00+02:00",
+            "taxItem": [
+                {
+                    "taxCategory": "TOTAL_TAX_AMOUNT",
+                    "taxAmount": {
+                        "unit": "KRW",
+                        "value": 570.0
+                    },
+                    "@type": "TaxItem"
+                }
+            ],
+            "externalIdentifier": [
+                {
+                    "owner": "briteBill",
+                    "externalIdentifierType": "documentId",
+                    "id": "229428890-0121341447484"
+                },
+                {
+                    "owner": "dxl",
+                    "externalIdentifierType": "urn",
+                    "id": "urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484"
+                }
+            ],
+            "paymentMethod": {
+                "id": "-1",
+                "name": "CA",
+                "@type": "PaymentMethodRef"
+            }
+        },
+        {
+            "@type": "BillSummary",
+            "bill": {
+                "@referredType": "CustomerBill",
+                "@type": "CustomerBillRef",
+                "id": "urn:coway:rental:product:invoice-number:121341447484"
+            },
+            "billSummaryItem": [
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "MONTHLY_FEES",
+                    "description": "Basispreis / Paketpreis (monatlich)",
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 55445.4
+                    },
+                    "characteristic": [
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "RENTAL_FEES"
+                        }
+                    ]
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "OPTIONAL_SERVICE_FEES",
+                    "description": "Sonstiges",
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    },
+                    "characteristic": [
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "OTHER_FEES"
+                        }
+                    ]
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "OTHER_CHARGES_AND_CREDITS",
+                    "description": "Zu Ihren Gunsten",
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": -62134.6
+                    },
+                    "characteristic": [
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "DISCOUNTS"
+                        }
+                    ]
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "EVENT_CHARGES",
+                    "description": "Verbindungspreise und Services",
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 6689.2
+                    },
+                    "characteristic": [
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "SERVICE_FEES"
+                        }
+                    ]
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "AFTER_TAXED_ADDITIONAL_CHARGES_AND_CREDITS",
+                    "description": "Mobiles Bezahlen",
+                    "totalAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    },
+                    "characteristic": [
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "MOBILE_PAYMENTS"
+                        }
+                    ]
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "BALANCE_TRANSFERS",
+                    "description": "Transfer von Guthaben",
+                    "totalAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    },
+                    "characteristic": [
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "BALANCE_TRANSFERS"
+                        }
+                    ]
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "REGISTRATION_FEES",
+                    "description": "Anschlusspreis",
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    },
+                    "characteristic": [
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "REGISTRATION_FEES"
+                        }
+                    ]
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "TOTAL_AMOUNT",
+                    "totalAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    },
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    },
+                    "taxItem": [
+                        {
+                            "taxCategory": "TOTAL_TAX_AMOUNT",
+                            "taxAmount": {
+                                "unit": "KRW",
+                                "value": 0.0
+                            },
+                            "@type": "TaxItem"
+                        }
+                    ]
+                }
+            ],
+            "logicalResource": {
+                "@type": "LogicalResource",
+                "category": "ACCOUNT",
+                "id": "urn:coway:rental:product:ban:115720204",
+                "name": "SUBSCRIBER_SUMMARY"
+            },
+            "netAmount": {
+                "unit": "KRW",
+                "value": 0.0
+            },
+            "totalAmount": {
+                "unit": "KRW",
+                "value": 0.0
+            },
+            "product": {
+                "id": "urn:coway:rental:product:tariffcode:AFK",
+                "name": "GigaMobil 2022 M",
+                "@type": "ProductRef",
+                "@referredType": "Product"
+            },
+            "relatedParty": {
+                "id": "urn:coway:rental:product:serial:01021041048",
+                "role": "SUBSCRIBER",
+                "@type": "RelatedParty"
+            },
+            "billingPeriod": {
+                "endDateTime": "2026-03-27T00:00:00+01:00",
+                "startDateTime": "2026-02-28T00:00:00+01:00"
+            },
+            "billDate": "2026-04-02T00:00:00+02:00",
+            "paymentDueDate": "2026-04-14T00:00:00+02:00",
+            "taxItem": [
+                {
+                    "taxCategory": "TOTAL_TAX_AMOUNT",
+                    "taxAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    },
+                    "@type": "TaxItem"
+                }
+            ],
+            "externalIdentifier": [
+                {
+                    "owner": "briteBill",
+                    "externalIdentifierType": "documentId",
+                    "id": "229428890-0121341447484"
+                },
+                {
+                    "owner": "dxl",
+                    "externalIdentifierType": "urn",
+                    "id": "urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484"
+                }
+            ],
+            "characteristic": [
+                {
+                    "name": "PRORATED_DATES",
+                    "value": 0,
+                    "valueType": "integer",
+                    "@type": "Characteristic"
+                },
+                {
+                    "name": "INDEX",
+                    "value": "Y",
+                    "valueType": "string",
+                    "@type": "Characteristic"
+                }
+            ],
+            "paymentMethod": {
+                "id": "-1",
+                "name": "CA",
+                "@type": "PaymentMethodRef"
+            }
+        },
+        {
+            "@type": "BillSummary",
+            "bill": {
+                "@referredType": "CustomerBill",
+                "@type": "CustomerBillRef",
+                "id": "urn:coway:rental:product:invoice-number:121341447484"
+            },
+            "billSummaryItem": [
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "MONTHLY_FEES",
+                    "description": "Basispreis / Paketpreis (monatlich)",
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 55445.4
+                    },
+                    "characteristic": [
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "RENTAL_FEES"
+                        }
+                    ]
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "OPTIONAL_SERVICE_FEES",
+                    "description": "Sonstiges",
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    },
+                    "characteristic": [
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "OTHER_FEES"
+                        }
+                    ]
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "OTHER_CHARGES_AND_CREDITS",
+                    "description": "Zu Ihren Gunsten",
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": -55445.4
+                    },
+                    "characteristic": [
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "DISCOUNTS"
+                        }
+                    ]
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "EVENT_CHARGES",
+                    "description": "Verbindungspreise und Services",
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    },
+                    "characteristic": [
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "SERVICE_FEES"
+                        }
+                    ]
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "AFTER_TAXED_ADDITIONAL_CHARGES_AND_CREDITS",
+                    "description": "Mobiles Bezahlen",
+                    "totalAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    },
+                    "characteristic": [
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "MOBILE_PAYMENTS"
+                        }
+                    ]
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "BALANCE_TRANSFERS",
+                    "description": "Transfer von Guthaben",
+                    "totalAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    },
+                    "characteristic": [
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "BALANCE_TRANSFERS"
+                        }
+                    ]
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "REGISTRATION_FEES",
+                    "description": "Anschlusspreis",
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    },
+                    "characteristic": [
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "REGISTRATION_FEES"
+                        }
+                    ]
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "TOTAL_AMOUNT",
+                    "totalAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    },
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    },
+                    "taxItem": [
+                        {
+                            "taxCategory": "TOTAL_TAX_AMOUNT",
+                            "taxAmount": {
+                                "unit": "KRW",
+                                "value": 0.0
+                            },
+                            "@type": "TaxItem"
+                        }
+                    ]
+                }
+            ],
+            "logicalResource": {
+                "@type": "LogicalResource",
+                "category": "ACCOUNT",
+                "id": "urn:coway:rental:product:ban:115720204",
+                "name": "SUBSCRIBER_SUMMARY"
+            },
+            "netAmount": {
+                "unit": "KRW",
+                "value": 0.0
+            },
+            "totalAmount": {
+                "unit": "KRW",
+                "value": 0.0
+            },
+            "product": {
+                "id": "urn:coway:rental:product:tariffcode:AFK",
+                "name": "GigaMobil 2022 M",
+                "@type": "ProductRef",
+                "@referredType": "Product"
+            },
+            "relatedParty": {
+                "id": "urn:coway:rental:product:serial:01021033703",
+                "role": "SUBSCRIBER",
+                "@type": "RelatedParty"
+            },
+            "billingPeriod": {
+                "endDateTime": "2026-03-27T00:00:00+01:00",
+                "startDateTime": "2026-02-28T00:00:00+01:00"
+            },
+            "billDate": "2026-04-02T00:00:00+02:00",
+            "paymentDueDate": "2026-04-14T00:00:00+02:00",
+            "taxItem": [
+                {
+                    "taxCategory": "TOTAL_TAX_AMOUNT",
+                    "taxAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    },
+                    "@type": "TaxItem"
+                }
+            ],
+            "externalIdentifier": [
+                {
+                    "owner": "briteBill",
+                    "externalIdentifierType": "documentId",
+                    "id": "229428890-0121341447484"
+                },
+                {
+                    "owner": "dxl",
+                    "externalIdentifierType": "urn",
+                    "id": "urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484"
+                }
+            ],
+            "characteristic": [
+                {
+                    "name": "PRORATED_DATES",
+                    "value": 0,
+                    "valueType": "integer",
+                    "@type": "Characteristic"
+                },
+                {
+                    "name": "INDEX",
+                    "value": "Y",
+                    "valueType": "string",
+                    "@type": "Characteristic"
+                }
+            ],
+            "paymentMethod": {
+                "id": "-1",
+                "name": "CA",
+                "@type": "PaymentMethodRef"
+            }
+        },
+        {
+            "@type": "BillSummary",
+            "bill": {
+                "@referredType": "CustomerBill",
+                "@type": "CustomerBillRef",
+                "id": "urn:coway:rental:product:invoice-number:121341447484"
+            },
+            "billSummaryItem": [
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "MONTHLY_FEES",
+                    "description": "Basispreis / Paketpreis (monatlich)",
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 56945.700000000004
+                    },
+                    "characteristic": [
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "RENTAL_FEES"
+                        }
+                    ]
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "OPTIONAL_SERVICE_FEES",
+                    "description": "Sonstiges",
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    },
+                    "characteristic": [
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "OTHER_FEES"
+                        }
+                    ]
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "OTHER_CHARGES_AND_CREDITS",
+                    "description": "Zu Ihren Gunsten",
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": -55445.4
+                    },
+                    "characteristic": [
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "DISCOUNTS"
+                        }
+                    ]
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "EVENT_CHARGES",
+                    "description": "Verbindungspreise und Services",
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    },
+                    "characteristic": [
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "SERVICE_FEES"
+                        }
+                    ]
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "AFTER_TAXED_ADDITIONAL_CHARGES_AND_CREDITS",
+                    "description": "Mobiles Bezahlen",
+                    "totalAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    },
+                    "characteristic": [
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "MOBILE_PAYMENTS"
+                        }
+                    ]
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "BALANCE_TRANSFERS",
+                    "description": "Transfer von Guthaben",
+                    "totalAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    },
+                    "characteristic": [
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "BALANCE_TRANSFERS"
+                        }
+                    ]
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "REGISTRATION_FEES",
+                    "description": "Anschlusspreis",
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    },
+                    "characteristic": [
+                        {
+                            "name": "billSummaryBANItemCategory",
+                            "value": "REGISTRATION_FEES"
+                        }
+                    ]
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "TOTAL_AMOUNT",
+                    "totalAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    },
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 1500.3
+                    },
+                    "taxItem": [
+                        {
+                            "taxCategory": "TOTAL_TAX_AMOUNT",
+                            "taxAmount": {
+                                "unit": "KRW",
+                                "value": 0.0
+                            },
+                            "@type": "TaxItem"
+                        }
+                    ]
+                }
+            ],
+            "logicalResource": {
+                "@type": "LogicalResource",
+                "category": "ACCOUNT",
+                "id": "urn:coway:rental:product:ban:115720204",
+                "name": "SUBSCRIBER_SUMMARY"
+            },
+            "netAmount": {
+                "unit": "KRW",
+                "value": 1500.3
+            },
+            "totalAmount": {
+                "unit": "KRW",
+                "value": 0.0
+            },
+            "product": {
+                "id": "urn:coway:rental:product:tariffcode:AFK",
+                "name": "GigaMobil 2022 M",
+                "@type": "ProductRef",
+                "@referredType": "Product"
+            },
+            "relatedParty": {
+                "id": "urn:coway:rental:product:serial:01021040843",
+                "role": "SUBSCRIBER",
+                "@type": "RelatedParty"
+            },
+            "billingPeriod": {
+                "endDateTime": "2026-03-27T00:00:00+01:00",
+                "startDateTime": "2026-02-28T00:00:00+01:00"
+            },
+            "billDate": "2026-04-02T00:00:00+02:00",
+            "paymentDueDate": "2026-04-14T00:00:00+02:00",
+            "taxItem": [
+                {
+                    "taxCategory": "TOTAL_TAX_AMOUNT",
+                    "taxAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    },
+                    "@type": "TaxItem"
+                }
+            ],
+            "externalIdentifier": [
+                {
+                    "owner": "briteBill",
+                    "externalIdentifierType": "documentId",
+                    "id": "229428890-0121341447484"
+                },
+                {
+                    "owner": "dxl",
+                    "externalIdentifierType": "urn",
+                    "id": "urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484"
+                }
+            ],
+            "characteristic": [
+                {
+                    "name": "PRORATED_DATES",
+                    "value": 27,
+                    "valueType": "integer",
+                    "@type": "Characteristic"
+                },
+                {
+                    "name": "INDEX",
+                    "value": "Y",
+                    "valueType": "string",
+                    "@type": "Characteristic"
+                }
+            ],
+            "paymentMethod": {
+                "id": "-1",
+                "name": "CA",
+                "@type": "PaymentMethodRef"
+            }
+        },
+        {
+            "@type": "BillSummary",
+            "bill": {
+                "@referredType": "CustomerBill",
+                "@type": "CustomerBillRef",
+                "id": "urn:coway:rental:product:invoice-number:121341447484"
+            },
+            "billSummaryItem": [
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "RENTAL_FEES",
+                    "totalAmount": {
+                        "unit": "KRW",
+                        "value": -48200.0
+                    },
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": -40508.1
+                    },
+                    "product": {
+                        "name": "GigaMobil 2022 M ohne Smartphone (anteilig 27 Tage)",
+                        "@type": "ProductRef",
+                        "@referredType": "Product"
+                    },
+                    "taxItem": [
+                        {
+                            "taxRate": 19.0,
+                            "taxAmount": {
+                                "unit": "KRW",
+                                "value": -7700.0
+                            },
+                            "@type": "TaxItem"
+                        }
+                    ],
+                    "quantity": {
+                        "value": 1.0,
+                        "unit": "items"
+                    }
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "RENTAL_FEES",
+                    "totalAmount": {
+                        "unit": "KRW",
+                        "value": 49990.0
+                    },
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 42008.4
+                    },
+                    "product": {
+                        "name": "GigaMobil 2022 M ohne Smartphone",
+                        "@type": "ProductRef",
+                        "@referredType": "Product"
+                    },
+                    "taxItem": [
+                        {
+                            "taxRate": 19.0,
+                            "taxAmount": {
+                                "unit": "KRW",
+                                "value": 7980.0
+                            },
+                            "@type": "TaxItem"
+                        }
+                    ],
+                    "quantity": {
+                        "value": 1.0,
+                        "unit": "items"
+                    }
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "RENTAL_FEES",
+                    "totalAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    },
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 0.0
+                    },
+                    "product": {
+                        "name": "+5GB zusätzliches Datenvolumen pro Monat. Bei nachträglicher Buchung einer GigaKombi mit einem Festnetz- und Internet-Vertrag entfällt das zusätzliche Datenvolumen.",
+                        "@type": "ProductRef",
+                        "@referredType": "Product"
+                    },
+                    "taxItem": [
+                        {
+                            "taxRate": 19.0,
+                            "taxAmount": {
+                                "unit": "KRW",
+                                "value": 0.0
+                            },
+                            "@type": "TaxItem"
+                        }
+                    ],
+                    "quantity": {
+                        "value": 3.0,
+                        "unit": "items"
+                    }
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "RENTAL_FEES",
+                    "totalAmount": {
+                        "unit": "KRW",
+                        "value": 2970.0
+                    },
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 2495.7
+                    },
+                    "product": {
+                        "name": "Secure Net+ Mobile, sicher sorglos surfen",
+                        "@type": "ProductRef",
+                        "@referredType": "Product"
+                    },
+                    "taxItem": [
+                        {
+                            "taxRate": 19.0,
+                            "taxAmount": {
+                                "unit": "KRW",
+                                "value": 470.0
+                            },
+                            "@type": "TaxItem"
+                        }
+                    ],
+                    "quantity": {
+                        "value": 3.0,
+                        "unit": "items"
+                    }
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "RENTAL_FEES",
+                    "totalAmount": {
+                        "unit": "KRW",
+                        "value": 45000.0
+                    },
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 37815.3
+                    },
+                    "product": {
+                        "name": "Vodafone OneNumber",
+                        "@type": "ProductRef",
+                        "@referredType": "Product"
+                    },
+                    "taxItem": [
+                        {
+                            "taxRate": 19.0,
+                            "taxAmount": {
+                                "unit": "KRW",
+                                "value": 7180.0
+                            },
+                            "@type": "TaxItem"
+                        }
+                    ],
+                    "quantity": {
+                        "value": 9.0,
+                        "unit": "items"
+                    }
+                },
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "RENTAL_FEES",
+                    "totalAmount": {
+                        "unit": "KRW",
+                        "value": 149970.0
+                    },
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 126025.2
+                    },
+                    "product": {
+                        "name": "GigaMobil 2022 M ohne Smartphone (28.03.2025 - 27.04.2025)",
+                        "@type": "ProductRef",
+                        "@referredType": "Product"
+                    },
+                    "taxItem": [
+                        {
+                            "taxRate": 19.0,
+                            "taxAmount": {
+                                "unit": "KRW",
+                                "value": 23940.0
+                            },
+                            "@type": "TaxItem"
+                        }
+                    ],
+                    "quantity": {
+                        "value": 3.0,
+                        "unit": "items"
+                    }
+                }
+            ],
+            "logicalResource": {
+                "@type": "LogicalResource",
+                "category": "ACCOUNT",
+                "description": "Basispreis / Paketpreis (monatlich)",
+                "id": "urn:coway:rental:product:ban:115720204",
+                "name": "RENTAL_FEES"
+            },
+            "netAmount": {
+                "unit": "KRW",
+                "value": 167836.5
+            },
+            "totalAmount": {
+                "unit": "KRW",
+                "value": 199730.0
+            },
+            "billingPeriod": {
+                "endDateTime": "2026-03-27T00:00:00+01:00",
+                "startDateTime": "2026-02-28T00:00:00+01:00"
+            },
+            "billDate": "2026-04-02T00:00:00+02:00",
+            "paymentDueDate": "2026-04-14T00:00:00+02:00",
+            "taxItem": [
+                {
+                    "taxAmount": {
+                        "unit": "KRW",
+                        "value": 31870.0
+                    },
+                    "@type": "TaxItem"
+                }
+            ],
+            "externalIdentifier": [
+                {
+                    "owner": "briteBill",
+                    "externalIdentifierType": "documentId",
+                    "id": "229428890-0121341447484"
+                },
+                {
+                    "owner": "dxl",
+                    "externalIdentifierType": "urn",
+                    "id": "urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484"
+                }
+            ],
+            "paymentMethod": {
+                "id": "-1",
+                "name": "CA",
+                "@type": "PaymentMethodRef"
+            }
+        },
+        {
+            "@type": "BillSummary",
+            "bill": {
+                "@referredType": "CustomerBill",
+                "@type": "CustomerBillRef",
+                "id": "urn:coway:rental:product:invoice-number:121341447484"
+            },
+            "billSummaryItem": [
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "SERVICE_FEES",
+                    "totalAmount": {
+                        "unit": "KRW",
+                        "value": 7960.0
+                    },
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 6689.2
+                    },
+                    "product": {
+                        "name": "Game Download(s)",
+                        "@type": "ProductRef",
+                        "@referredType": "Product"
+                    },
+                    "taxItem": [
+                        {
+                            "taxRate": 19.0,
+                            "taxAmount": {
+                                "unit": "KRW",
+                                "value": 1270.0
+                            },
+                            "@type": "TaxItem"
+                        }
+                    ],
+                    "quantity": {
+                        "value": 4.0,
+                        "unit": "items"
+                    }
+                }
+            ],
+            "logicalResource": {
+                "@type": "LogicalResource",
+                "category": "ACCOUNT",
+                "description": "Verbindungspreise und Services",
+                "id": "urn:coway:rental:product:ban:115720204",
+                "name": "SERVICE_FEES"
+            },
+            "netAmount": {
+                "unit": "KRW",
+                "value": 6689.2
+            },
+            "totalAmount": {
+                "unit": "KRW",
+                "value": 7960.0
+            },
+            "billingPeriod": {
+                "endDateTime": "2026-03-27T00:00:00+01:00",
+                "startDateTime": "2026-02-28T00:00:00+01:00"
+            },
+            "billDate": "2026-04-02T00:00:00+02:00",
+            "paymentDueDate": "2026-04-14T00:00:00+02:00",
+            "taxItem": [
+                {
+                    "taxAmount": {
+                        "unit": "KRW",
+                        "value": 1270.0
+                    },
+                    "@type": "TaxItem"
+                }
+            ],
+            "externalIdentifier": [
+                {
+                    "owner": "briteBill",
+                    "externalIdentifierType": "documentId",
+                    "id": "229428890-0121341447484"
+                },
+                {
+                    "owner": "dxl",
+                    "externalIdentifierType": "urn",
+                    "id": "urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484"
+                }
+            ],
+            "paymentMethod": {
+                "id": "-1",
+                "name": "CA",
+                "@type": "PaymentMethodRef"
+            }
+        },
+        {
+            "@type": "BillSummary",
+            "bill": {
+                "@referredType": "CustomerBill",
+                "@type": "CustomerBillRef",
+                "id": "urn:coway:rental:product:invoice-number:121341447484"
+            },
+            "billSummaryItem": [
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "OTHER_FEES",
+                    "totalAmount": {
+                        "unit": "KRW",
+                        "value": 3580.0
+                    },
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 3008.4
+                    },
+                    "product": {
+                        "name": "Kontoausgleich",
+                        "@type": "ProductRef",
+                        "@referredType": "Product"
+                    },
+                    "taxItem": [
+                        {
+                            "taxRate": 19.0,
+                            "taxAmount": {
+                                "unit": "KRW",
+                                "value": 570.0
+                            },
+                            "@type": "TaxItem"
+                        }
+                    ],
+                    "quantity": {
+                        "value": 2.0,
+                        "unit": "items"
+                    }
+                }
+            ],
+            "logicalResource": {
+                "@type": "LogicalResource",
+                "category": "ACCOUNT",
+                "description": "Sonstiges",
+                "id": "urn:coway:rental:product:ban:115720204",
+                "name": "OTHER_FEES"
+            },
+            "netAmount": {
+                "unit": "KRW",
+                "value": 3008.4
+            },
+            "totalAmount": {
+                "unit": "KRW",
+                "value": 3580.0
+            },
+            "billingPeriod": {
+                "endDateTime": "2026-03-27T00:00:00+01:00",
+                "startDateTime": "2026-02-28T00:00:00+01:00"
+            },
+            "billDate": "2026-04-02T00:00:00+02:00",
+            "paymentDueDate": "2026-04-14T00:00:00+02:00",
+            "taxItem": [
+                {
+                    "taxAmount": {
+                        "unit": "KRW",
+                        "value": 570.0
+                    },
+                    "@type": "TaxItem"
+                }
+            ],
+            "externalIdentifier": [
+                {
+                    "owner": "briteBill",
+                    "externalIdentifierType": "documentId",
+                    "id": "229428890-0121341447484"
+                },
+                {
+                    "owner": "dxl",
+                    "externalIdentifierType": "urn",
+                    "id": "urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484"
+                }
+            ],
+            "paymentMethod": {
+                "id": "-1",
+                "name": "CA",
+                "@type": "PaymentMethodRef"
+            }
+        },
+        {
+            "@type": "BillSummary",
+            "bill": {
+                "@referredType": "CustomerBill",
+                "@type": "CustomerBillRef",
+                "id": "urn:coway:rental:product:invoice-number:121341447484"
+            },
+            "billSummaryItem": [
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "DISCOUNTS",
+                    "totalAmount": {
+                        "unit": "KRW",
+                        "value": -205900.0
+                    },
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": -173025.4
+                    },
+                    "product": {
+                        "name": "Umsatzbonus Vodafone-Rechnung",
+                        "@type": "ProductRef",
+                        "@referredType": "Product"
+                    },
+                    "taxItem": [
+                        {
+                            "taxRate": 19.0,
+                            "taxAmount": {
+                                "unit": "KRW",
+                                "value": -32870.0
+                            },
+                            "@type": "TaxItem"
+                        }
+                    ]
+                }
+            ],
+            "logicalResource": {
+                "@type": "LogicalResource",
+                "category": "ACCOUNT",
+                "description": "Zu Ihren Gunsten",
+                "id": "urn:coway:rental:product:ban:115720204",
+                "name": "DISCOUNTS"
+            },
+            "netAmount": {
+                "unit": "KRW",
+                "value": -173025.4
+            },
+            "totalAmount": {
+                "unit": "KRW",
+                "value": -205900.0
+            },
+            "billingPeriod": {
+                "endDateTime": "2026-03-27T00:00:00+01:00",
+                "startDateTime": "2026-02-28T00:00:00+01:00"
+            },
+            "billDate": "2026-04-02T00:00:00+02:00",
+            "paymentDueDate": "2026-04-14T00:00:00+02:00",
+            "taxItem": [
+                {
+                    "taxAmount": {
+                        "unit": "KRW",
+                        "value": -32870.0
+                    },
+                    "@type": "TaxItem"
+                }
+            ],
+            "externalIdentifier": [
+                {
+                    "owner": "briteBill",
+                    "externalIdentifierType": "documentId",
+                    "id": "229428890-0121341447484"
+                },
+                {
+                    "owner": "dxl",
+                    "externalIdentifierType": "urn",
+                    "id": "urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484"
+                }
+            ],
+            "paymentMethod": {
+                "id": "-1",
+                "name": "CA",
+                "@type": "PaymentMethodRef"
+            }
+        },
+        {
+            "@type": "BillSummary",
+            "bill": {
+                "@referredType": "CustomerBill",
+                "@type": "CustomerBillRef",
+                "id": "urn:coway:rental:product:invoice-number:121341447484"
+            },
+            "billSummaryItem": [
+                {
+                    "@type": "BillSummaryItem",
+                    "billSummaryItemCategory": "TI",
+                    "totalAmount": {
+                        "unit": "KRW",
+                        "value": 5370.0
+                    },
+                    "netAmount": {
+                        "unit": "KRW",
+                        "value": 4510.0
+                    },
+                    "taxItem": [
+                        {
+                            "taxRate": 19.0,
+                            "taxAmount": {
+                                "unit": "KRW",
+                                "value": 860.0
+                            },
+                            "@type": "TaxItem"
+                        }
+                    ]
+                }
+            ],
+            "logicalResource": {
+                "@type": "LogicalResource",
+                "category": "ACCOUNT",
+                "id": "urn:coway:rental:product:ban:115720204",
+                "name": "TAXES_SUMMARY"
+            },
+            "netAmount": {
+                "unit": "KRW",
+                "value": 4510.0
+            },
+            "totalAmount": {
+                "unit": "KRW",
+                "value": 5370.0
+            },
+            "billingPeriod": {
+                "endDateTime": "2026-03-27T00:00:00+01:00",
+                "startDateTime": "2026-02-28T00:00:00+01:00"
+            },
+            "billDate": "2026-04-02T00:00:00+02:00",
+            "paymentDueDate": "2026-04-14T00:00:00+02:00",
+            "taxItem": [
+                {
+                    "taxAmount": {
+                        "unit": "KRW",
+                        "value": 860.0
+                    },
+                    "@type": "TaxItem"
+                }
+            ],
+            "externalIdentifier": [
+                {
+                    "owner": "briteBill",
+                    "externalIdentifierType": "documentId",
+                    "id": "229428890-0121341447484"
+                },
+                {
+                    "owner": "dxl",
+                    "externalIdentifierType": "urn",
+                    "id": "urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484"
+                }
+            ],
+            "paymentMethod": {
+                "id": "-1",
+                "name": "CA",
+                "@type": "PaymentMethodRef"
+            }
+        }
+    ],
+    "billingAccount": {
+        "id": "urn:coway:rental:product:ban:115720204",
+        "accountBalance": [
+            {
+                "balanceType": "debit",
+                "amount": {
+                    "unit": "KRW",
+                    "value": 3580.0
+                }
+            }
+        ]
+    },
+    "billingPeriod": {
+        "startDateTime": "2026-02-28T00:00+01:00",
+        "endDateTime": "2026-03-27T00:00+01:00"
+    },
+    "paymentDueDate": "2026-04-14T00:00:00+02:00",
+    "relatedEntity": [
+        {
+            "href": "https://api.vodafone.de/meinvodafone/v2/tmf-api/document/v4/document/urn%3Avf-de-dxl-tmf%3Avf%3Amobile%3Aban-document-id%3A115720204-M0R0Y3FRdTlzcWVBYlo5aXB6Vm1iQ3ZNdHNsY1hhOXNNamRYTytBa0J0Z1VnMVFhdEs3OXBoWUlGbk93RXBEcGtMRlJlblhhTnZsTVFsa0RySTVMSzdvbHBZZWphcWplZTRuamFSNksrTzlVSVRBRlc4U2IxVWtrZmtDQUN0NUJjRGpnSUE2TlhpTHdUMUh3K0JQclhLS0dCbmw0bUhxOG8wMDZCRTFaL3ZPOUdDM0NZM3U4ZDJRQUtXaVpwakR3VFFSVFpOWFRqamxyUEd3REpkY1NjaUJ4aGxMRGFWYURGclVFc0U2UEFzST0",
+            "id": "urn:coway:rental:product:ban-document-id:115720204-M0R0Y3FRdTlzcWVBYlo5aXB6Vm1iQ3ZNdHNsY1hhOXNNamRYTytBa0J0Z1VnMVFhdEs3OXBoWUlGbk93RXBEcGtMRlJlblhhTnZsTVFsa0RySTVMSzdvbHBZZWphcWplZTRuamFSNksrTzlVSVRBRlc4U2IxVWtrZmtDQUN0NUJjRGpnSUE2TlhpTHdUMUh3K0JQclhLS0dCbmw0bUhxOG8wMDZCRTFaL3ZPOUdDM0NZM3U4ZDJRQUtXaVpwakR3VFFSVFpOWFRqamxyUEd3REpkY1NjaUJ4aGxMRGFWYURGclVFc0U2UEFzST0",
+            "@type": "Document",
+            "documentType": "INVOICE_PDF",
+            "relatedEntity": {
+                "id": "urn:coway:rental:product:ban:115720204",
+                "@referredType": "BillingAccount",
+                "@type": "RelatedEntity"
+            },
+            "characteristic": [
+                {
+                    "name": "SOURCE_SYSTEM",
+                    "value": "cpoDoc",
+                    "valueType": "string",
+                    "@type": "Characteristic"
+                },
+                {
+                    "name": "BILLING_CYCLE",
+                    "value": "2026-04-02",
+                    "valueType": "date",
+                    "@type": "Characteristic"
+                }
+            ]
+        },
+        {
+            "href": "https://api.vodafone.de/meinvodafone/v2/tmf-api/document/v4/document/urn%3Avf-de-dxl-tmf%3Avf%3Amobile%3Aban-doctype-billdoc%3A115720204-csvb_ov-229428890-0121341447484",
+            "id": "urn:coway:rental:product:ban-doctype-billdoc:115720204-csvb_ov-229428890-0121341447484",
+            "@type": "Document",
+            "documentType": "INVOICE_OVERVIEW_CSV",
+            "relatedEntity": {
+                "id": "urn:coway:rental:product:ban:115720204",
+                "@referredType": "BillingAccount",
+                "@type": "RelatedEntity"
+            },
+            "characteristic": [
+                {
+                    "name": "SOURCE_SYSTEM",
+                    "value": "briteBill",
+                    "valueType": "string",
+                    "@type": "Characteristic"
+                },
+                {
+                    "name": "BILLING_CYCLE",
+                    "value": "2026-04-02",
+                    "valueType": "date",
+                    "@type": "Characteristic"
+                }
+            ]
+        },
+        {
+            "href": "https://api.vodafone.de/meinvodafone/v2/tmf-api/document/v4/document/urn%3Avf-de-dxl-tmf%3Avf%3Amobile%3Aban-doctype-billdoc%3A115720204-csvb_bill-229428890-0121341447484",
+            "id": "urn:coway:rental:product:ban-doctype-billdoc:115720204-csvb_bill-229428890-0121341447484",
+            "@type": "Document",
+            "documentType": "INVOICE_CSV",
+            "relatedEntity": {
+                "id": "urn:coway:rental:product:ban:115720204",
+                "@referredType": "BillingAccount",
+                "@type": "RelatedEntity"
+            },
+            "characteristic": [
+                {
+                    "name": "SOURCE_SYSTEM",
+                    "value": "briteBill",
+                    "valueType": "string",
+                    "@type": "Characteristic"
+                },
+                {
+                    "name": "BILLING_CYCLE",
+                    "value": "2026-04-02",
+                    "valueType": "date",
+                    "@type": "Characteristic"
+                }
+            ]
+        }
+    ],
+    "externalIdentifier": [
+        {
+            "owner": "briteBill",
+            "externalIdentifierType": "invoiceId",
+            "id": "121341447484"
+        }
+    ],
+    "_links": {
+        "self": {
+            "href": "https://api.vodafone.de/meinvodafone/v2/bill?relatedParty.id=urn:coway:rental:product:ban:115720204&bill.id=urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484"
+        },
+        "previousBill": {
+            "href": "https://api.vodafone.de/meinvodafone/v2/bill?relatedParty.id=urn:coway:rental:product:ban:115720204&bill.id=urn:coway:rental:product:ban-billdoc:115720204-229428890-0121270837226"
+        }
+    }
+}

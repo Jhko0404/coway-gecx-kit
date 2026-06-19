@@ -1,0 +1,62 @@
+# 코웨이 렌탈 청구 데이터 (JSON) 구조 가이드
+
+
+이 가이드는 `mock-billing-api/data/Bill-Mar.json` 및 `Bill-Feb.json` 파일의 핵심 구조와 계층별 필드 의미를 설명합니다.
+
+---
+
+## 📊 1. 계층 구조 요약
+
+고지서 JSON 데이터는 크게 세 가지 레벨로 나뉩니다.
+
+```mermaid
+graph TD
+    Root["1. 루트 레벨 (청구서 정보: 발행일, 납부기한, 총 청구액)"]
+    Root --> Sub["2. 제품 레벨 (subscription: 정수기, 공기청정기 등 제품별 렌탈 요금 상세)"]
+    Root --> Summary["3. 계정 요약 레벨 (billSummary: 카테고리별 요약 합계 금액)"]
+```
+
+---
+
+## 🔍 2. 레벨별 필드 상세 해설
+
+### ① 루트 레벨 (Root Level)
+고지서의 가장 최상위 데이터 영역입니다.
+
+*   `amountDue`: 이번 달 납부해야 하는 **최종 합계 요금** 정보입니다.
+    *   `value`: 최종 청구액 (원화 단위, 예: `5370.0`)
+    *   `unit`: 화폐 단위 (`"KRW"`)
+*   `id`: 고지서의 고유 식별자 URN입니다.
+*   `billDate`: 고지서가 발행된 날짜입니다 (`"2025-04-02T00:00+02:00"` 형식).
+*   `paymentDueDate`: 요금 납부 기한일입니다.
+*   `billingPeriod`: 요금 산정의 대상이 되는 사용 기간(시작일/종료일)입니다.
+
+---
+
+### ② 제품 레벨 (subscription)
+고객이 사용 중인 개별 렌탈 기기 단위의 요금 내역 목록입니다.
+
+*   `name`: 가전 제품 명칭입니다 (예: `"정수기 (아이콘2)"`, `"공기청정기 (노블)"`).
+*   `relatedParty.id`: 제품의 식별 정보 URN이며, 맨 끝자리가 기기 일련번호입니다.
+    *   예: `urn:coway:rental:product:serial:01021041048` ➔ 일련번호 끝자리 **`048`**
+*   `outOfBundleAmount`: 해당 제품에서 발생한 상세 요금 항목 배열입니다.
+    *   `value`: 요금 항목 금액
+    *   `characteristic`: 해당 요금의 상세 설명 매핑 정보
+        *   `billSummaryBANItemCategory`: 요금 분류 코드입니다.
+            *   `RENTAL_FEES`: 기본 렌탈료
+            *   `DISCOUNTS`: 렌탈료 할인액 (패키지/결합/제휴 할인)
+            *   `SERVICE_FEES`: 방문케어 서비스 수수료
+            *   `OTHER_FEES`: 소모품/필터 교체 비용
+            *   `REGISTRATION_FEES`: 초기 등록/설치비
+        *   `Category`: 해당 기기의 총합계 요금(`TOTAL_AMOUNT`)인지, 개별 내역 항목인지 구분하는 명칭입니다.
+
+---
+
+### ③ 계정 요약 레벨 (billSummary)
+모든 제품군의 요금을 카테고리별로 합산한 전체 고지서의 요약 집계 데이터입니다.
+
+*   `logicalResource.name`: `"ACCOUNT_SUMMARY"`로 명시된 블록이 계정 요약 데이터입니다.
+*   `billSummaryItem`: 카테고리별 최종 합산 목록입니다.
+    *   `billSummaryItemCategory`: 요약 카테고리 코드 (`RENTAL_FEES`, `SERVICE_FEES` 등)
+    *   `netAmount`: 해당 카테고리의 최종 합계 금액 정보입니다.
+        *   `value`: 해당 카테고리의 순수 청구 총액

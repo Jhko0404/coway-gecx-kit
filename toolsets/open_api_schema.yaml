@@ -1,0 +1,44 @@
+openapi: 3.0.0
+info:
+  title: 코웨이 모의 렌탈 요금 조회 API (Coway Rental Invoice API)
+  version: "1.0.0"
+servers:
+  - url: https://coway-bill-mock-329992103474.us-central1.run.app   # Cloud Run에 배포된 모의 API 서버 주소 (배포 후 주소 교체 가능)
+paths:   
+  /coway/v1/rental-invoice:
+    get:
+      operationId: getInvoices
+      summary: 고객의 렌탈 요금 고지서 목록을 조회하거나 특정 고지서를 상세 검색합니다.
+      description: >
+        지정된 고객 식별자(customer_id)에 해당하는 렌탈 청구 고지서 객체들의 배열을 반환합니다.
+        특정 고지서 ID(bill_id)가 제공되면 일치하는 단일 고지서 정보만 배열로 싸서 반환합니다.
+        fields 매개변수를 이용해 특정 속성 키만 노출하도록 결과 값을 필터링할 수 있습니다.
+      parameters:
+        - name: customer_id
+          in: query
+          required: true
+          description: >
+            고객의 청구 계정 식별 고유 URN 정보
+          schema:
+            type: string
+        - name: bill_id
+          in: query
+          required: false
+          description: 특정 고지서 한 건만 조회하고자 할 때 입력하는 고지서 문서 고유 ID
+          schema:
+            type: string
+        - name: fields
+          in: query
+          required: false
+          description: '반환받을 필드명 목록 (쉼표 구분자 형식, 예: "id,billDate,amountDue")'
+          schema:
+            type: string
+      responses:
+        "200":
+          description: 고객의 렌탈 청구 고지서 목록 배열 정보
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
