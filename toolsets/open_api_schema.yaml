@@ -3,7 +3,7 @@ info:
   title: 코웨이 모의 렌탈 요금 조회 API (Coway Rental Invoice API)
   version: "1.0.0"
 servers:
-  - url: https://coway-bill-mock-329992103474.us-central1.run.app   # Cloud Run에 배포된 모의 API 서버 주소 (배포 후 주소 교체 가능)
+  - url: https://coway-bill-mock-xxxxxxxx-uc.a.run.app   # Cloud Run에 배포된 모의 API 서버 주소 (배포 후 주소 교체 가능)
 paths:   
   /coway/v1/rental-invoice:
     get:

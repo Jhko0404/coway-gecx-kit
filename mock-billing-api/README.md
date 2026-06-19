@@ -20,13 +20,13 @@ curl 'http://localhost:8080/coway/v1/rental-invoice?customer_id=urn:coway:rental
 
 ---
 
-## 🚀 2. Cloud Run 배포 방법 (프로젝트: gemeni-workshop)
+## 🚀 2. Cloud Run 배포 방법 (프로젝트: [GCP_PROJECT_ID])
 ```bash
 # GCP Cloud Run에 무인증 접근 허용으로 배포
 gcloud run deploy coway-bill-mock \
   --source . \
   --region us-central1 \
-  --project gemeni-workshop \
+  --project [GCP_PROJECT_ID] \
   --allow-unauthenticated
 ```
 *   *(배포 완료 후 반환되는 Service URL을 OpenAPI 스펙 `open_api_schema.yaml` 파일의 `servers.url` 부분에 업데이트해 주십시오.)*
