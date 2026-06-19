@@ -1,4 +1,4 @@
-"""Pure bill-parsing logic for the Coway rental billing wrappers.
+"""Pure bill-parsing logic for the Purifier rental billing wrappers.
 
 No platform globals (`context` / `tools`) are referenced here, so this module is
 unit-testable in isolation (see tests/test_billing_lib.py). At build/push time it is
@@ -10,7 +10,7 @@ from typing import Optional, List, Dict, Tuple, Any
 
 CURRENCY = "KRW"
 
-# Coway Category mapping. We use English values to avoid encoding issues in python code.
+# Purifier Category mapping. We use English values to avoid encoding issues in python code.
 # The LLM will translate these English category names into natural Korean in its responses.
 LABELS = {
     "RENTAL_FEES": {"English": "Rental Fees"},
@@ -283,7 +283,7 @@ def _get_bills(account_id, bill_id=""):
         args["bill_id"] = bill_id           # detail fetch: one full bill
     else:
         args["fields"] = _LIST_FIELDS       # list: trimmed projection of all bills
-    return _unwrap(tools.coway_billing_getInvoices(args))
+    return _unwrap(tools.purifier_billing_getInvoices(args))
 
 
 def _auth_error():

@@ -1,6 +1,6 @@
-# 코웨이 모의 렌탈 요금 API (Mock API)
+# 정수기 모의 렌탈 요금 API (Mock API)
 
-이 모의 API 서버는 두 개의 샘플 렌탈 청구서 데이터를 `/coway/v1/rental-invoice` 경로를 통해 제공합니다. 
+이 모의 API 서버는 두 개의 샘플 렌탈 청구서 데이터를 `/purifier/v1/rental-invoice` 경로를 통해 제공합니다. 
 
 쿼리 매개변수는 GECX OpenAPI 툴셋이 정상적으로 인식하고 바인딩할 수 있도록 파이썬 식별자 안전 이름(`customer_id`, `bill_id`)을 사용하도록 설계되었습니다.
 
@@ -15,7 +15,7 @@ cd mock-billing-api
 uvicorn app:app --reload --port 8080
 
 # curl 명령어로 요금 조회 테스트
-curl 'http://localhost:8080/coway/v1/rental-invoice?customer_id=urn:coway:rental:product:ban:115720204&fields=id,amountDue'
+curl 'http://localhost:8080/purifier/v1/rental-invoice?customer_id=urn:purifier:rental:product:ban:115720204&fields=id,amountDue'
 ```
 
 ---
@@ -23,7 +23,7 @@ curl 'http://localhost:8080/coway/v1/rental-invoice?customer_id=urn:coway:rental
 ## 🚀 2. Cloud Run 배포 방법 (프로젝트: [GCP_PROJECT_ID])
 ```bash
 # GCP Cloud Run에 무인증 접근 허용으로 배포
-gcloud run deploy coway-bill-mock \
+gcloud run deploy purifier-bill-mock \
   --source . \
   --region us-central1 \
   --project [GCP_PROJECT_ID] \

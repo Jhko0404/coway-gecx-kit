@@ -17,20 +17,20 @@ from app import app  # noqa: E402
 client = TestClient(app)
 
 # 테스트에 사용될 가상 계정 ID(BAN) 및 특정 청구서 고유 ID(MAR_ID) 정의
-BAN = "urn:coway:rental:product:ban:115720204"
-MAR_ID = "urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484"
+BAN = "urn:purifier:rental:product:ban:115720204"
+MAR_ID = "urn:purifier:rental:product:ban-billdoc:115720204-229428890-0121341447484"
 
 
 def test_list_requires_customer_id():
     """요청 시 필수 값인 customer_id 누락 시 422 에러(유효성 검사 실패)가 발생하는지 검증합니다."""
     # 필수 파라미터가 없으므로 422 Unprocessable Entity 에러 반환 확인
-    assert client.get("/coway/v1/rental-invoice").status_code == 422
+    assert client.get("/purifier/v1/rental-invoice").status_code == 422
 
 
 def test_list_returns_array_of_two():
     """정상적인 고객 ID로 조회했을 때 총 2개의 고지서 데이터 목록이 반환되는지 확인합니다."""
     # 정상 파라미터 전달
-    r = client.get("/coway/v1/rental-invoice", params={"customer_id": BAN})
+    r = client.get("/purifier/v1/rental-invoice", params={"customer_id": BAN})
     assert r.status_code == 200
     # 등록된 샘플 데이터 개수인 2개 확인
     assert len(r.json()) == 2
@@ -39,7 +39,7 @@ def test_list_returns_array_of_two():
 def test_fields_narrowing():
     """fields 파라미터를 사용해 요청한 필드(id, billDate 등)만 결과 키에 한정되어 출력되는지 검증합니다."""
     fields_query = "id,billDate,billingPeriod,amountDue,paymentDueDate"
-    r = client.get("/coway/v1/rental-invoice",
+    r = client.get("/purifier/v1/rental-invoice",
                    params={"customer_id": BAN, "fields": fields_query})
     
     assert r.status_code == 200
@@ -50,7 +50,7 @@ def test_fields_narrowing():
 
 def test_bill_id_filter_returns_one_full():
     """bill_id 필터를 지정해 요청했을 때, 일치하는 고지서 딱 1개만 세부 내역까지 정상 로드되는지 확인합니다."""
-    r = client.get("/coway/v1/rental-invoice", params={"customer_id": BAN, "bill_id": MAR_ID})
+    r = client.get("/purifier/v1/rental-invoice", params={"customer_id": BAN, "bill_id": MAR_ID})
     body = r.json()
     
     assert r.status_code == 200

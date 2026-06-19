@@ -28,7 +28,7 @@ def lookup_customer(customer_id: str) -> dict:
             "status": "success",
             "account": {
                 "customer_id": customer_id,
-                "plan": "Coway Care Membership",
+                "plan": "Purifier Care Membership",
                 "balance": "0원",
                 "next_billing_date": "2099-01-15",
                 "service_status": "active",

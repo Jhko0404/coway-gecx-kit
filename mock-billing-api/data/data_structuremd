@@ -1,4 +1,4 @@
-# 코웨이 렌탈 청구 데이터 (JSON) 구조 가이드
+# 정수기 렌탈 청구 데이터 (JSON) 구조 가이드
 
 
 이 가이드는 `mock-billing-api/data/Bill-Mar.json` 및 `Bill-Feb.json` 파일의 핵심 구조와 계층별 필드 의미를 설명합니다.
@@ -38,7 +38,7 @@ graph TD
 
 *   `name`: 가전 제품 명칭입니다 (예: `"정수기 (아이콘2)"`, `"공기청정기 (노블)"`).
 *   `relatedParty.id`: 제품의 식별 정보 URN이며, 맨 끝자리가 기기 일련번호입니다.
-    *   예: `urn:coway:rental:product:serial:01021041048` ➔ 일련번호 끝자리 **`048`**
+    *   예: `urn:purifier:rental:product:serial:01021041048` ➔ 일련번호 끝자리 **`048`**
 *   `outOfBundleAmount`: 해당 제품에서 발생한 상세 요금 항목 배열입니다.
     *   `value`: 요금 항목 금액
     *   `characteristic`: 해당 요금의 상세 설명 매핑 정보

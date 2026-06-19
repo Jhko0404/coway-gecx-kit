@@ -1,4 +1,4 @@
-# 📈 코웨이 빌링 조회 흐름도 (Invoice Query Flow Diagram)
+# 📈 정수기 빌링 조회 흐름도 (Invoice Query Flow Diagram)
 
 이 문서는 고객이 **"이번 달 고지서 요금 명세 좀 보여줘"** 라고 발화했을 때, GECX 플랫폼 내부에서 어떤 경로를 거쳐 에이전트 간 세션 이관이 일어나고 백엔드 API와 커스텀 도구가 실행되어 최종 답변을 출력하는지 시각화하여 해설합니다.
 
@@ -65,10 +65,10 @@ sequenceDiagram
 
 ### 4단계: 파이썬 커스텀 도구의 인증 필터 및 1차 목록 조회 (REST API)
 *   **인증 및 URN 확인**: 도구 함수 내부에서 `context.state`에 저장된 `auth_status == "authenticated"` 조건과 `account_id` 고유 URN의 실재 여부를 교차 검증합니다.
-*   **요약 목록 요청**: OpenAPI 툴셋(`tools.coway_billing_getInvoices`)을 통해 모의 API 서버로 요약 고지서 목록 조회를 요청합니다. (이때 대용량 페이로드 방지를 위해 `fields` 필터링을 걸어 5개 핵심 필드만 가볍게 요청함).
+*   **요약 목록 요청**: OpenAPI 툴셋(`tools.purifier_billing_getInvoices`)을 통해 모의 API 서버로 요약 고지서 목록 조회를 요청합니다. (이때 대용량 페이로드 방지를 위해 `fields` 필터링을 걸어 5개 핵심 필드만 가볍게 요청함).
 
 ### 5단계: 타겟 청구월 식별 및 2차 상세 내역 로드
-*   **청구월 타겟팅**: 로드된 요약 목록에서 `resolve_month` 함수를 실행하여 가장 최신(3월) 고지서 정보 개체를 찾아내고, 해당 고지서의 고유 ID(`urn:coway:rental:product:ban-billdoc:...`)를 추출합니다.
+*   **청구월 타겟팅**: 로드된 요약 목록에서 `resolve_month` 함수를 실행하여 가장 최신(3월) 고지서 정보 개체를 찾아내고, 해당 고지서의 고유 ID(`urn:purifier:rental:product:ban-billdoc:...`)를 추출합니다.
 *   **단건 상세 정보 요청**: 알아낸 고유 ID를 `bill_id` 파라미터에 채워 넣어 다시 한 번 모의 API 서버로 3월 고지서 상세 내역 전체(TMF678 형식 JSON)를 요청합니다.
 
 ### 6단계: 데이터 가공 및 정형화 (Formatting)

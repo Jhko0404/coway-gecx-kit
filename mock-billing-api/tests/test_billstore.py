@@ -15,7 +15,7 @@ from billstore import load_bills, query_bills  # noqa: E402
 # 전체 청구서 리스트 로딩
 BILLS = load_bills()
 # 검증용 고지서 ID 정의
-MAR_ID = "urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484"
+MAR_ID = "urn:purifier:rental:product:ban-billdoc:115720204-229428890-0121341447484"
 
 
 def test_loads_two_bills():

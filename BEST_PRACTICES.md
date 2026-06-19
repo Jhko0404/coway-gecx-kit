@@ -1,6 +1,6 @@
 # 🛡️ Google Cloud Conversational AI Playbook Best Practices 준수 보고서
 
-본 저장소(`coway-gecx-kit`)는 Google Cloud의 **GECX (CX Agent Studio) 공식 디자인 가이드라인 및 모범 사례(Best Practices & Design Patterns)**를 100% 준수하여 설계되었습니다. 
+본 저장소(`purifier-gecx-kit`)는 Google Cloud의 **GECX (CX Agent Studio) 공식 디자인 가이드라인 및 모범 사례(Best Practices & Design Patterns)**를 100% 준수하여 설계되었습니다. 
 
 본 문서는 GECX 공식 개발 표준과 본 프로젝트 소스 코드 간의 매핑을 상세하게 해설하여, 타 사용자들이 GECX 환경에서 효율적이고 신뢰성 높은 생성형 AI 에이전트를 설계하는 교육 자료로 활용할 수 있도록 돕습니다.
 
@@ -81,7 +81,7 @@
 *   **준수 사례 ([agent_configs/root_agent_instruction.txt](./agent_configs/root_agent_instruction.txt))**:
     가독성이 뛰어나고 모델이 역할을 완벽하게 모델링할 수 있도록 프롬프트를 XML 태그로 구조화하여 파이프라인별 업무 흐름(Taskflow)을 규정했습니다.
     ```markdown
-    <role>당신은 코웨이의 대표 고객센터 상담원입니다...</role>
+    <role>당신은 정수기의 대표 고객센터 상담원입니다...</role>
     <guidelines>
       <guideline name="currency">...</guideline>
     </guidelines>

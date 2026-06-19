@@ -1,22 +1,22 @@
-# 📊 코웨이 모의 고지서 샘플 데이터 요약서 (Sample Data Summary)
+# 📊 정수기 모의 고지서 샘플 데이터 요약서 (Sample Data Summary)
 
 이 문서는 `sample_data/` 디렉터리에 포함된 2개의 고지서 JSON 데이터 파일(`Bill-Feb-1621040843.txt`, `Bill-Mar-1621040843.txt`)의 수치 및 내역을 요약 해설합니다. 이 데이터들은 GECX 빌링 에이전트의 로컬 테스트 및 API 응답 모킹(Mocking)에 사용되는 기준 데이터셋입니다.
 
 ---
 
 ## 🏷️ 1. 공통 정보 (Common Account Info)
-*   **고객 식별 URN (`customer_id`)**: `urn:coway:rental:product:ban:115720204`
+*   **고객 식별 URN (`customer_id`)**: `urn:purifier:rental:product:ban:115720204`
 *   **고객명 (`customer_name`)**: `홍길동` (authenticated 세션 기본값)
 *   **렌탈 기기 목록 (3대)**:
-    *   **정수기 (아이콘2)**: 시리얼 번호 끝자리 `048` (`urn:coway:rental:product:serial:01021041048`)
-    *   **공기청정기 (노블)**: 시리얼 번호 끝자리 `703` (`urn:coway:rental:product:serial:01021033703`)
-    *   **비데 (룰루)**: 시리얼 번호 끝자리 `843` (`urn:coway:rental:product:serial:01021040843`)
+    *   **정수기 (아이콘2)**: 시리얼 번호 끝자리 `048` (`urn:purifier:rental:product:serial:01021041048`)
+    *   **공기청정기 (노블)**: 시리얼 번호 끝자리 `703` (`urn:purifier:rental:product:serial:01021033703`)
+    *   **비데 (룰루)**: 시리얼 번호 끝자리 `843` (`urn:purifier:rental:product:serial:01021040843`)
 
 ---
 
 ## 📅 2. 2월분 고지서 요약 (February 2026 Bill)
 *   **파일명**: `Bill-Feb-1621040843.txt`
-*   **고지서 ID**: `urn:coway:rental:product:ban-billdoc:115720204-229428890-0121270837226`
+*   **고지서 ID**: `urn:purifier:rental:product:ban-billdoc:115720204-229428890-0121270837226`
 *   **발행일자 (`billDate`)**: 2026년 3월 6일
 *   **청구기간 (`billingPeriod`)**: 2026년 1월 28일 ~ 2월 27일 (2월 사용분)
 *   **납부 기한 (`paymentDueDate`)**: 2026년 3월 18일
@@ -34,7 +34,7 @@
 
 ## 📅 3. 3월분 고지서 요약 (March 2026 Bill)
 *   **파일명**: `Bill-Mar-1621040843.txt`
-*   **고지서 ID**: `urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484`
+*   **고지서 ID**: `urn:purifier:rental:product:ban-billdoc:115720204-229428890-0121341447484`
 *   **발행일자 (`billDate`)**: 2026년 4월 2일
 *   **청구기간 (`billingPeriod`)**: 2026년 2월 28일 ~ 3월 27일 (3월 사용분)
 *   **납부 기한 (`paymentDueDate`)**: 2026년 4월 14일

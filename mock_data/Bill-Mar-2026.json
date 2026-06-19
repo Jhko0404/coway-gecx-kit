@@ -3,13 +3,13 @@
         "value": 5370.0,
         "unit": "KRW"
     },
-    "id": "urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484",
+    "id": "urn:purifier:rental:product:ban-billdoc:115720204-229428890-0121341447484",
     "billDate": "2026-04-02T00:00+02:00",
     "subscription": [
         {
             "name": "정수기 (아이콘2)",
             "relatedParty": {
-                "id": "urn:coway:rental:product:serial:01021041048"
+                "id": "urn:purifier:rental:product:serial:01021041048"
             },
             "outOfBundleAmount": [
                 {
@@ -199,7 +199,7 @@
         {
             "name": "공기청정기 (노블)",
             "relatedParty": {
-                "id": "urn:coway:rental:product:serial:01021033703"
+                "id": "urn:purifier:rental:product:serial:01021033703"
             },
             "outOfBundleAmount": [
                 {
@@ -389,7 +389,7 @@
         {
             "name": "비데 (룰루)",
             "relatedParty": {
-                "id": "urn:coway:rental:product:serial:01021040843"
+                "id": "urn:purifier:rental:product:serial:01021040843"
             },
             "outOfBundleAmount": [
                 {
@@ -583,7 +583,7 @@
             "bill": {
                 "@referredType": "CustomerBill",
                 "@type": "CustomerBillRef",
-                "id": "urn:coway:rental:product:invoice-number:121341447484"
+                "id": "urn:purifier:rental:product:invoice-number:121341447484"
             },
             "billSummaryItem": [
                 {
@@ -630,7 +630,7 @@
             "logicalResource": {
                 "@type": "LogicalResource",
                 "category": "ACCOUNT",
-                "id": "urn:coway:rental:product:ban:115720204",
+                "id": "urn:purifier:rental:product:ban:115720204",
                 "name": "ACCOUNT_SUMMARY"
             },
             "totalAmount": {
@@ -652,7 +652,7 @@
                 {
                     "owner": "dxl",
                     "externalIdentifierType": "urn",
-                    "id": "urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484"
+                    "id": "urn:purifier:rental:product:ban-billdoc:115720204-229428890-0121341447484"
                 }
             ],
             "characteristic": [
@@ -746,7 +746,7 @@
             "bill": {
                 "@referredType": "CustomerBill",
                 "@type": "CustomerBillRef",
-                "id": "urn:coway:rental:product:invoice-number:121341447484"
+                "id": "urn:purifier:rental:product:invoice-number:121341447484"
             },
             "billSummaryItem": [
                 {
@@ -762,7 +762,7 @@
             "logicalResource": {
                 "@type": "LogicalResource",
                 "category": "ACCOUNT",
-                "id": "urn:coway:rental:product:ban:115720204",
+                "id": "urn:purifier:rental:product:ban:115720204",
                 "name": "ACCOUNT_CHARGES_AND_CREDITS"
             },
             "netAmount": {
@@ -798,7 +798,7 @@
                 {
                     "owner": "dxl",
                     "externalIdentifierType": "urn",
-                    "id": "urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484"
+                    "id": "urn:purifier:rental:product:ban-billdoc:115720204-229428890-0121341447484"
                 }
             ],
             "paymentMethod": {
@@ -812,7 +812,7 @@
             "bill": {
                 "@referredType": "CustomerBill",
                 "@type": "CustomerBillRef",
-                "id": "urn:coway:rental:product:invoice-number:121341447484"
+                "id": "urn:purifier:rental:product:invoice-number:121341447484"
             },
             "billSummaryItem": [
                 {
@@ -946,7 +946,7 @@
             "logicalResource": {
                 "@type": "LogicalResource",
                 "category": "ACCOUNT",
-                "id": "urn:coway:rental:product:ban:115720204",
+                "id": "urn:purifier:rental:product:ban:115720204",
                 "name": "SUBSCRIBER_SUMMARY"
             },
             "netAmount": {
@@ -958,13 +958,13 @@
                 "value": 0.0
             },
             "product": {
-                "id": "urn:coway:rental:product:tariffcode:AFK",
+                "id": "urn:purifier:rental:product:tariffcode:AFK",
                 "name": "GigaMobil 2022 M",
                 "@type": "ProductRef",
                 "@referredType": "Product"
             },
             "relatedParty": {
-                "id": "urn:coway:rental:product:serial:01021041048",
+                "id": "urn:purifier:rental:product:serial:01021041048",
                 "role": "SUBSCRIBER",
                 "@type": "RelatedParty"
             },
@@ -993,7 +993,7 @@
                 {
                     "owner": "dxl",
                     "externalIdentifierType": "urn",
-                    "id": "urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484"
+                    "id": "urn:purifier:rental:product:ban-billdoc:115720204-229428890-0121341447484"
                 }
             ],
             "characteristic": [
@@ -1021,7 +1021,7 @@
             "bill": {
                 "@referredType": "CustomerBill",
                 "@type": "CustomerBillRef",
-                "id": "urn:coway:rental:product:invoice-number:121341447484"
+                "id": "urn:purifier:rental:product:invoice-number:121341447484"
             },
             "billSummaryItem": [
                 {
@@ -1155,7 +1155,7 @@
             "logicalResource": {
                 "@type": "LogicalResource",
                 "category": "ACCOUNT",
-                "id": "urn:coway:rental:product:ban:115720204",
+                "id": "urn:purifier:rental:product:ban:115720204",
                 "name": "SUBSCRIBER_SUMMARY"
             },
             "netAmount": {
@@ -1167,13 +1167,13 @@
                 "value": 0.0
             },
             "product": {
-                "id": "urn:coway:rental:product:tariffcode:AFK",
+                "id": "urn:purifier:rental:product:tariffcode:AFK",
                 "name": "GigaMobil 2022 M",
                 "@type": "ProductRef",
                 "@referredType": "Product"
             },
             "relatedParty": {
-                "id": "urn:coway:rental:product:serial:01021033703",
+                "id": "urn:purifier:rental:product:serial:01021033703",
                 "role": "SUBSCRIBER",
                 "@type": "RelatedParty"
             },
@@ -1202,7 +1202,7 @@
                 {
                     "owner": "dxl",
                     "externalIdentifierType": "urn",
-                    "id": "urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484"
+                    "id": "urn:purifier:rental:product:ban-billdoc:115720204-229428890-0121341447484"
                 }
             ],
             "characteristic": [
@@ -1230,7 +1230,7 @@
             "bill": {
                 "@referredType": "CustomerBill",
                 "@type": "CustomerBillRef",
-                "id": "urn:coway:rental:product:invoice-number:121341447484"
+                "id": "urn:purifier:rental:product:invoice-number:121341447484"
             },
             "billSummaryItem": [
                 {
@@ -1364,7 +1364,7 @@
             "logicalResource": {
                 "@type": "LogicalResource",
                 "category": "ACCOUNT",
-                "id": "urn:coway:rental:product:ban:115720204",
+                "id": "urn:purifier:rental:product:ban:115720204",
                 "name": "SUBSCRIBER_SUMMARY"
             },
             "netAmount": {
@@ -1376,13 +1376,13 @@
                 "value": 0.0
             },
             "product": {
-                "id": "urn:coway:rental:product:tariffcode:AFK",
+                "id": "urn:purifier:rental:product:tariffcode:AFK",
                 "name": "GigaMobil 2022 M",
                 "@type": "ProductRef",
                 "@referredType": "Product"
             },
             "relatedParty": {
-                "id": "urn:coway:rental:product:serial:01021040843",
+                "id": "urn:purifier:rental:product:serial:01021040843",
                 "role": "SUBSCRIBER",
                 "@type": "RelatedParty"
             },
@@ -1411,7 +1411,7 @@
                 {
                     "owner": "dxl",
                     "externalIdentifierType": "urn",
-                    "id": "urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484"
+                    "id": "urn:purifier:rental:product:ban-billdoc:115720204-229428890-0121341447484"
                 }
             ],
             "characteristic": [
@@ -1439,7 +1439,7 @@
             "bill": {
                 "@referredType": "CustomerBill",
                 "@type": "CustomerBillRef",
-                "id": "urn:coway:rental:product:invoice-number:121341447484"
+                "id": "urn:purifier:rental:product:invoice-number:121341447484"
             },
             "billSummaryItem": [
                 {
@@ -1633,7 +1633,7 @@
                 "@type": "LogicalResource",
                 "category": "ACCOUNT",
                 "description": "Basispreis / Paketpreis (monatlich)",
-                "id": "urn:coway:rental:product:ban:115720204",
+                "id": "urn:purifier:rental:product:ban:115720204",
                 "name": "RENTAL_FEES"
             },
             "netAmount": {
@@ -1668,7 +1668,7 @@
                 {
                     "owner": "dxl",
                     "externalIdentifierType": "urn",
-                    "id": "urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484"
+                    "id": "urn:purifier:rental:product:ban-billdoc:115720204-229428890-0121341447484"
                 }
             ],
             "paymentMethod": {
@@ -1682,7 +1682,7 @@
             "bill": {
                 "@referredType": "CustomerBill",
                 "@type": "CustomerBillRef",
-                "id": "urn:coway:rental:product:invoice-number:121341447484"
+                "id": "urn:purifier:rental:product:invoice-number:121341447484"
             },
             "billSummaryItem": [
                 {
@@ -1721,7 +1721,7 @@
                 "@type": "LogicalResource",
                 "category": "ACCOUNT",
                 "description": "Verbindungspreise und Services",
-                "id": "urn:coway:rental:product:ban:115720204",
+                "id": "urn:purifier:rental:product:ban:115720204",
                 "name": "SERVICE_FEES"
             },
             "netAmount": {
@@ -1756,7 +1756,7 @@
                 {
                     "owner": "dxl",
                     "externalIdentifierType": "urn",
-                    "id": "urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484"
+                    "id": "urn:purifier:rental:product:ban-billdoc:115720204-229428890-0121341447484"
                 }
             ],
             "paymentMethod": {
@@ -1770,7 +1770,7 @@
             "bill": {
                 "@referredType": "CustomerBill",
                 "@type": "CustomerBillRef",
-                "id": "urn:coway:rental:product:invoice-number:121341447484"
+                "id": "urn:purifier:rental:product:invoice-number:121341447484"
             },
             "billSummaryItem": [
                 {
@@ -1809,7 +1809,7 @@
                 "@type": "LogicalResource",
                 "category": "ACCOUNT",
                 "description": "Sonstiges",
-                "id": "urn:coway:rental:product:ban:115720204",
+                "id": "urn:purifier:rental:product:ban:115720204",
                 "name": "OTHER_FEES"
             },
             "netAmount": {
@@ -1844,7 +1844,7 @@
                 {
                     "owner": "dxl",
                     "externalIdentifierType": "urn",
-                    "id": "urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484"
+                    "id": "urn:purifier:rental:product:ban-billdoc:115720204-229428890-0121341447484"
                 }
             ],
             "paymentMethod": {
@@ -1858,7 +1858,7 @@
             "bill": {
                 "@referredType": "CustomerBill",
                 "@type": "CustomerBillRef",
-                "id": "urn:coway:rental:product:invoice-number:121341447484"
+                "id": "urn:purifier:rental:product:invoice-number:121341447484"
             },
             "billSummaryItem": [
                 {
@@ -1893,7 +1893,7 @@
                 "@type": "LogicalResource",
                 "category": "ACCOUNT",
                 "description": "Zu Ihren Gunsten",
-                "id": "urn:coway:rental:product:ban:115720204",
+                "id": "urn:purifier:rental:product:ban:115720204",
                 "name": "DISCOUNTS"
             },
             "netAmount": {
@@ -1928,7 +1928,7 @@
                 {
                     "owner": "dxl",
                     "externalIdentifierType": "urn",
-                    "id": "urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484"
+                    "id": "urn:purifier:rental:product:ban-billdoc:115720204-229428890-0121341447484"
                 }
             ],
             "paymentMethod": {
@@ -1942,7 +1942,7 @@
             "bill": {
                 "@referredType": "CustomerBill",
                 "@type": "CustomerBillRef",
-                "id": "urn:coway:rental:product:invoice-number:121341447484"
+                "id": "urn:purifier:rental:product:invoice-number:121341447484"
             },
             "billSummaryItem": [
                 {
@@ -1971,7 +1971,7 @@
             "logicalResource": {
                 "@type": "LogicalResource",
                 "category": "ACCOUNT",
-                "id": "urn:coway:rental:product:ban:115720204",
+                "id": "urn:purifier:rental:product:ban:115720204",
                 "name": "TAXES_SUMMARY"
             },
             "netAmount": {
@@ -2006,7 +2006,7 @@
                 {
                     "owner": "dxl",
                     "externalIdentifierType": "urn",
-                    "id": "urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484"
+                    "id": "urn:purifier:rental:product:ban-billdoc:115720204-229428890-0121341447484"
                 }
             ],
             "paymentMethod": {
@@ -2017,7 +2017,7 @@
         }
     ],
     "billingAccount": {
-        "id": "urn:coway:rental:product:ban:115720204",
+        "id": "urn:purifier:rental:product:ban:115720204",
         "accountBalance": [
             {
                 "balanceType": "debit",
@@ -2036,11 +2036,11 @@
     "relatedEntity": [
         {
             "href": "https://api.vodafone.de/meinvodafone/v2/tmf-api/document/v4/document/urn%3Avf-de-dxl-tmf%3Avf%3Amobile%3Aban-document-id%3A115720204-M0R0Y3FRdTlzcWVBYlo5aXB6Vm1iQ3ZNdHNsY1hhOXNNamRYTytBa0J0Z1VnMVFhdEs3OXBoWUlGbk93RXBEcGtMRlJlblhhTnZsTVFsa0RySTVMSzdvbHBZZWphcWplZTRuamFSNksrTzlVSVRBRlc4U2IxVWtrZmtDQUN0NUJjRGpnSUE2TlhpTHdUMUh3K0JQclhLS0dCbmw0bUhxOG8wMDZCRTFaL3ZPOUdDM0NZM3U4ZDJRQUtXaVpwakR3VFFSVFpOWFRqamxyUEd3REpkY1NjaUJ4aGxMRGFWYURGclVFc0U2UEFzST0",
-            "id": "urn:coway:rental:product:ban-document-id:115720204-M0R0Y3FRdTlzcWVBYlo5aXB6Vm1iQ3ZNdHNsY1hhOXNNamRYTytBa0J0Z1VnMVFhdEs3OXBoWUlGbk93RXBEcGtMRlJlblhhTnZsTVFsa0RySTVMSzdvbHBZZWphcWplZTRuamFSNksrTzlVSVRBRlc4U2IxVWtrZmtDQUN0NUJjRGpnSUE2TlhpTHdUMUh3K0JQclhLS0dCbmw0bUhxOG8wMDZCRTFaL3ZPOUdDM0NZM3U4ZDJRQUtXaVpwakR3VFFSVFpOWFRqamxyUEd3REpkY1NjaUJ4aGxMRGFWYURGclVFc0U2UEFzST0",
+            "id": "urn:purifier:rental:product:ban-document-id:115720204-M0R0Y3FRdTlzcWVBYlo5aXB6Vm1iQ3ZNdHNsY1hhOXNNamRYTytBa0J0Z1VnMVFhdEs3OXBoWUlGbk93RXBEcGtMRlJlblhhTnZsTVFsa0RySTVMSzdvbHBZZWphcWplZTRuamFSNksrTzlVSVRBRlc4U2IxVWtrZmtDQUN0NUJjRGpnSUE2TlhpTHdUMUh3K0JQclhLS0dCbmw0bUhxOG8wMDZCRTFaL3ZPOUdDM0NZM3U4ZDJRQUtXaVpwakR3VFFSVFpOWFRqamxyUEd3REpkY1NjaUJ4aGxMRGFWYURGclVFc0U2UEFzST0",
             "@type": "Document",
             "documentType": "INVOICE_PDF",
             "relatedEntity": {
-                "id": "urn:coway:rental:product:ban:115720204",
+                "id": "urn:purifier:rental:product:ban:115720204",
                 "@referredType": "BillingAccount",
                 "@type": "RelatedEntity"
             },
@@ -2061,11 +2061,11 @@
         },
         {
             "href": "https://api.vodafone.de/meinvodafone/v2/tmf-api/document/v4/document/urn%3Avf-de-dxl-tmf%3Avf%3Amobile%3Aban-doctype-billdoc%3A115720204-csvb_ov-229428890-0121341447484",
-            "id": "urn:coway:rental:product:ban-doctype-billdoc:115720204-csvb_ov-229428890-0121341447484",
+            "id": "urn:purifier:rental:product:ban-doctype-billdoc:115720204-csvb_ov-229428890-0121341447484",
             "@type": "Document",
             "documentType": "INVOICE_OVERVIEW_CSV",
             "relatedEntity": {
-                "id": "urn:coway:rental:product:ban:115720204",
+                "id": "urn:purifier:rental:product:ban:115720204",
                 "@referredType": "BillingAccount",
                 "@type": "RelatedEntity"
             },
@@ -2086,11 +2086,11 @@
         },
         {
             "href": "https://api.vodafone.de/meinvodafone/v2/tmf-api/document/v4/document/urn%3Avf-de-dxl-tmf%3Avf%3Amobile%3Aban-doctype-billdoc%3A115720204-csvb_bill-229428890-0121341447484",
-            "id": "urn:coway:rental:product:ban-doctype-billdoc:115720204-csvb_bill-229428890-0121341447484",
+            "id": "urn:purifier:rental:product:ban-doctype-billdoc:115720204-csvb_bill-229428890-0121341447484",
             "@type": "Document",
             "documentType": "INVOICE_CSV",
             "relatedEntity": {
-                "id": "urn:coway:rental:product:ban:115720204",
+                "id": "urn:purifier:rental:product:ban:115720204",
                 "@referredType": "BillingAccount",
                 "@type": "RelatedEntity"
             },
@@ -2119,10 +2119,10 @@
     ],
     "_links": {
         "self": {
-            "href": "https://api.vodafone.de/meinvodafone/v2/bill?relatedParty.id=urn:coway:rental:product:ban:115720204&bill.id=urn:coway:rental:product:ban-billdoc:115720204-229428890-0121341447484"
+            "href": "https://api.vodafone.de/meinvodafone/v2/bill?relatedParty.id=urn:purifier:rental:product:ban:115720204&bill.id=urn:purifier:rental:product:ban-billdoc:115720204-229428890-0121341447484"
         },
         "previousBill": {
-            "href": "https://api.vodafone.de/meinvodafone/v2/bill?relatedParty.id=urn:coway:rental:product:ban:115720204&bill.id=urn:coway:rental:product:ban-billdoc:115720204-229428890-0121270837226"
+            "href": "https://api.vodafone.de/meinvodafone/v2/bill?relatedParty.id=urn:purifier:rental:product:ban:115720204&bill.id=urn:purifier:rental:product:ban-billdoc:115720204-229428890-0121270837226"
         }
     }
 }
