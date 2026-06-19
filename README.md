@@ -1,4 +1,4 @@
-# 🏠 GECX Coway Rental Billing POC Kit
+# GECX Coway Rental Billing POC Kit
 
 본 저장소는 Google Cloud의 **GECX (CX Agent Studio)** 플랫폼 상에서 코웨이의 스마트 가전 렌탈 요금 분석 생성형 AI 에이전트를 구성하고 배포하기 위한 **독립 실행형 패키지**입니다.
 
