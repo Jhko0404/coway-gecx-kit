@@ -71,7 +71,7 @@
     *   **Build Type**: `Dockerfile` 선택
     *   **Source directory**: `/mock-billing-api`
     *   **Dockerfile path**: `Dockerfile`
-5.  **인증(Authentication)**에서 **`미인증 호출 허용`**을 선택하고 **`만들기 (Create)`**를 누릅니다.
+5.  **인증(Authentication)** 에서 **`미인증 호출 허용`** 을 선택하고 **`만들기 (Create)`** 를 누릅니다.
 
 ---
 
