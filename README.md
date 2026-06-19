@@ -167,15 +167,38 @@ GECX 콘솔 우측 상단의 **Test agent** 시뮬레이터를 켭니다.
 2.  **렌탈 요금 상세 조회 요청**:
     *   **사용자**: *"이번 달 고지서 요금 명세 좀 보여줘"*
     *   *(에이전트가 `billing_agent`로 세션 이동 후 `get_invoice_breakdown(month="latest")` 실행)*
-    *   **에이전트**: *"홍길동 고객님의 2026년 3월 총 청구 요금은 5,370원입니다. 세부 카테고리는 기본 렌탈료 167,837원, 방문 케어 서비스료 6,689원, 소모품 및 필터 추가 구매 비용 3,008원이며, 제휴카드 및 결합 할인액으로 173,025원이 차감되었습니다. 제품별 세부 요금 명세도 안내해 드릴까요?"*
+    *   **에이전트**: 
+        > 홍길동 고객님의 **2026년 3월 총 청구 금액은 5,370원**입니다.
+        > 
+        > **[요금 세부 내역]**
+        > *   **기본 렌탈료**: 167,837원
+        > *   **방문 케어 서비스료**: 6,689원
+        > *   **소모품 및 필터 추가 구매 비용**: 3,008원
+        > *   **제휴카드 및 패키지 결합 할인액**: -173,025원 (차감 완료)
+        > 
+        > 제품별 세부 요금 명세도 안내해 드릴까요?
 3.  **지난달 대비 비교분석 요청**:
     *   **사용자**: *"이번 달 요금이 왜 지난달보다 더 나왔어?"*
     *   *(에이전트가 `compare_invoices(month="latest", compare_to="previous")` 실행)*
-    *   **에이전트**: *"이번 달 요금은 지난달(2026년 2월) 청구액인 -1,790원에 비해 총 7,160원 인상되었습니다. 가장 큰 요인은 비데(룰루) 제품의 결합 할인이 일부 종료되어 기본 렌탈료가 3,001원 인상된 영향과, 기타 수수료 3,580원이 추가 발생한 영향입니다."*
+    *   **에이전트**: 
+        > **2026년 3월 요금은 지난달(2월: -1,790원) 대비 총 7,160원 인상**되었습니다.
+        > 
+        > **[주요 변동 원인]**
+        > *   **소모품 및 필터 추가 구매 비용 (기타 수수료)**: +3,580원 발생
+        > *   **기본 렌탈료**: 비데(룰루) 제품의 일부 결합 할인 혜택 종료로 인해 +3,001원 인상
+        > 
+        > 추가적으로 궁금하신 점이 있으신가요?
 4.  **다국어 영어 전환 테스트**:
     *   **사용자**: *"Can you explain that in English?"*
     *   *(에이전트가 `update_language(new_language="English")` 실행 후 즉시 전환)*
-    *   **에이전트**: *"Sure, I can explain that in English. Compared to your February bill of -1,790 KRW, your March bill increased by 7,160 KRW to 5,370 KRW. The main reasons are a 3,001 KRW increase in your bidet rental fee due to partial discount expiration, and a 3,580 KRW balance transfer charge..."*
+    *   **에이전트**: 
+        > Sure, I can explain that in English.
+        > 
+        > **Your March bill is 5,370 KRW, which is 7,160 KRW higher** than your February bill (-1,790 KRW).
+        > 
+        > **[Key Drivers]**
+        > *   **Other Fees**: +3,580 KRW
+        > *   **Rental Fees**: +3,001 KRW (due to partial discount expiration on your bidet)
 
 ---
 
